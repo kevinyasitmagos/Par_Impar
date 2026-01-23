@@ -4,6 +4,15 @@ import java.util.Scanner;
     public static main void (String [] args){
          
          Scanner sc = new Scanner(System.in);
-         int numero 
+         int numero;
+
+         System.out.println("Ingresa un numero entero");
+         numero = sc.nextInt();
+
+         If numero % 2 == 0{
+            System.out.println("El nuumero " + numero "es impar");
+        
+         }
+         
     }
  }
