@@ -1,7 +1,7 @@
 import java.util.Scanner;
  
  public class Par_Impar{
-    public static main void (String [] args){
+     public static void main (String [] args){
          
          Scanner sc = new Scanner(System.in);
          int numero;
@@ -9,10 +9,12 @@ import java.util.Scanner;
          System.out.println("Ingresa un numero entero");
          numero = sc.nextInt();
 
-         If numero % 2 == 0{
-            System.out.println("El nuumero " + numero "es impar");
-        
-         }
-         
-    }
- }
+         if (numero % 2 == 0) {
+            System.out.println("El numero es par");
+         }      
+        else if (numero % 2 == 1) {
+         System.out.println("El numero es impar");
+        }
+      }
+        } 
+    
