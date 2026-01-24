@@ -15,19 +15,19 @@ import java.util.Scanner;
         else if (dia == 2) {
          System.out.println("Monday");
         }
-        elseif (dia == 3) {
+        else if (dia == 3) {
             System.out.println("Tuesday");
         }
-        elseif (dia == 4) {
+        else if (dia == 4) {
             System.out.println("Wednesday");
         }
-        elseif (dia == 5) {
+        else if (dia == 5) {
             System.out.println("Thursday");
         }
-        elseif (dia == 6) {
+        else if (dia == 6) {
             System.out.println("Friday");
         }
-        elseif (dia == 7) {
+        else if (dia == 7) {
             System.out.println("Saturday");
         }
       }
