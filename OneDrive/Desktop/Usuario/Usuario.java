@@ -5,7 +5,7 @@ public static void main(String []args){
 Scanner sc = new Scanner(System.in);
 
 String usuariop = "Yasit";
-String contrap = "101010"
+String contrap = "101010";
   
   boolean acceso = false;
 
@@ -19,10 +19,10 @@ String contrap = "101010"
         boolean acceso = true;
         } 
         
-        If (acceso = true){
+        If (acceso = true) {
             System.out.println("Acceso permitido");
         } else {
-            System.out.println("Acceso denegado")
+            System.out.println("Acceso denegado");
         }
         }
 }
