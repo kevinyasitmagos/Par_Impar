@@ -5,10 +5,10 @@ public class Ciclos{
 
         //while como contador 
         while (i <= 20) {
-         if (i<=20 && i%2==1) {
-            System.out.print("Los numeros pares menores a 20 son:" + i);
-            i++;
+         if (i%2!=0) {
+            System.out.print("N:" + i);
          }
+         i++;
         }
    
 
